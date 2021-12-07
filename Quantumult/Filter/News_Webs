@@ -1,0 +1,17 @@
+host, open.spotify.com, News_Webs
+host, 10beasts.net, News_Webs
+host, cloudflare.com, News_Webs
+host, wenzhao.ca, News_Webs
+host-keyword, economist.com, News_Webs
+host-suffix, visualwebsiteoptimizer.com, News_Webs
+host-suffix, theatlantic.com, News_Webs
+host-suffix, newyorker.com, News_Webs
+host, bartender.mobile.dowjones.io, News_Webs
+host, remote-data.urbanairship.com, News_Webs
+host, www.rfa.org, News_Webs
+host, api.amplitude.com, News_Webs
+host, dcs.megaphone.fm, News_Webs
+host, dcs.megaphone.fm, News_Webs
+host, tentacles.supertop.co, News_Webs
+host-suffix, castro.fm, News_Webs
+host, http://nytimes.pressreader.com, News_Webs
