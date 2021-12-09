@@ -9,7 +9,7 @@ DOMAIN,s3-ap-southeast-2.amazonaws.com,PROXY
 DOMAIN,a248.e.akamai.net,PROXY
 DOMAIN,a771.dscq.akamai.net,PROXY
 # > Apple
-DOMAIN,testflight.apple.com,PROXY
+;DOMAIN,testflight.apple.com,PROXY
 # > Crypto
 DOMAIN-SUFFIX,aex.com,PROXY
 DOMAIN-SUFFIX,bibox.com,PROXY
@@ -81,6 +81,7 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
 DOMAIN-SUFFIX,ytimg.com,PROXY
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,.blogspot.,PROXY
+DOMAIN-KEYWORD,gmail.com,PROXY
 # > Line
 DOMAIN-SUFFIX,line.me,PROXY
 DOMAIN-SUFFIX,line-apps.com,PROXY
@@ -555,30 +556,6 @@ DOMAIN-SUFFIX,weebly.com,PROXY
 DOMAIN-SUFFIX,twitter.jp,PROXY
 
 # (Region-Restricted Access Denied)
-# ---(Apple)---
-DOMAIN-SUFFIX,appsto.re,PROXY
-DOMAIN,books.itunes.apple.com,PROXY
-DOMAIN-SUFFIX,smoot.apple.com,PROXY
-DOMAIN,beta.music.apple.com,PROXY
-DOMAIN,lookup-api.apple.com,PROXY
-# > Web Preview
-DOMAIN,apps.apple.com,PROXY
-DOMAIN,books.apple.com,PROXY
-DOMAIN,itunes.apple.com,PROXY
-DOMAIN,tv.apple.com,PROXY
-# > Podcasts
-DOMAIN,amp-api.podcasts.apple.com,PROXY
-DOMAIN,bookkeeper.itunes.apple.com,PROXY
-# > News
-DOMAIN,gateway.icloud.com,PROXY
-DOMAIN-SUFFIX,apple.news,PROXY
-DOMAIN,news-assets.apple.com,PROXY
-DOMAIN,news-client.apple.com,PROXY
-DOMAIN,news-client-search.apple.com,PROXY
-DOMAIN,news-edge.apple.com,PROXY
-DOMAIN,news-events.apple.com,PROXY
-DOMAIN,apple.comscoreresearch.com,PROXY
-# ------
 # Google
 DOMAIN-SUFFIX,go.dev,PROXY
 DOMAIN-SUFFIX,golang.org,PROXY
@@ -594,7 +571,6 @@ DOMAIN-SUFFIX,mangakakalot.com,PROXY
 DOMAIN-SUFFIX,shopeemobile.com,PROXY
 DOMAIN-SUFFIX,sushi.com,PROXY
 # URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
-
 # (Network Jitter)
 # > Apple
 DOMAIN,appleid.apple.com,PROXY
