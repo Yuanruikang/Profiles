@@ -1,7 +1,7 @@
 # Advertising
 # > General
 DOMAIN-KEYWORD,adservice,REJECT
-
+DOMAIN-KEYWORD,static01.nyt.com,REJECT
 DOMAIN-SUFFIX,1phads.com,REJECT
 DOMAIN-SUFFIX,1rtb.com,REJECT
 DOMAIN-SUFFIX,1xl.co.uk,REJECT
