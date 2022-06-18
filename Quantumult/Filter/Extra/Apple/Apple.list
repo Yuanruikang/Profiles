@@ -3,26 +3,60 @@ DOMAIN-SUFFIX,aaplimg.com,Apple
 DOMAIN-SUFFIX,apple.co,Apple
 DOMAIN-SUFFIX,apple.com,Apple
 DOMAIN-SUFFIX,apple.com.cn,Apple
-DOMAIN-SUFFIX,apple-cloudkit.com,Apple
-DOMAIN-SUFFIX,appstore.com,Apple
 DOMAIN-SUFFIX,cdn-apple.com,Apple
-DOMAIN-SUFFIX,icloud.com,Apple
-DOMAIN-SUFFIX,icloud.com.cn,Apple
-DOMAIN-SUFFIX,icloud-content.com,Apple
-DOMAIN-SUFFIX,me.com,Apple
-DOMAIN-SUFFIX,mzstatic.com,Apple
-DOMAIN-KEYWORD,apple.com.akadns.net,Apple
-DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
-IP-CIDR,17.0.0.0/8,Apple
-IP-CIDR,63.92.224.0/19,Apple
-IP-CIDR,65.199.22.0/23,Apple
-IP-CIDR,139.178.128.0/18,Apple
-IP-CIDR,144.178.0.0/19,Apple
-IP-CIDR,192.35.50.0/24,Apple
-IP-CIDR,198.183.17.0/24,Apple
-IP-CIDR,205.180.175.0/24,Apple
-# > Web Preview
-DOMAIN,apps.apple.com,PROXY
-DOMAIN,books.apple.com,PROXY
-DOMAIN,itunes.apple.com,PROXY
-DOMAIN,tv.apple.com,PROXY
+
+ip-cidr,17.0.0.0/8,Apple
+ip-cidr,63.92.224.0/19,Apple
+ip-cidr,65.199.22.0/23,Apple
+ip-cidr,139.178.128.0/18,Apple
+ip-cidr,144.178.0.0/19,Apple
+ip-cidr,144.178.36.0/22,Apple
+ip-cidr,144.178.48.0/20,Apple
+ip-cidr,192.35.50.0/24,Apple
+ip-cidr,198.183.17.0/24,Apple
+ip-cidr,205.180.175.0/24,Apple
+
+# > iCloud
+host-keyword,icloud,Apple
+host-keyword,icoudo,Apple
+host-keyword,icoudos,Apple
+host-suffix,applemx-icloud.com,Apple
+host-suffix,icloud-content.com,Apple
+host-suffix,icloud-isupport.com,Apple
+host-suffix,icloudads.net,Apple
+host-suffix,icloudbox.net,Apple
+host-suffix,icloudbrowser.net,Apple
+host-suffix,icloude.com,Apple
+host-suffix,icloudmusic.net,Apple
+host-suffix,icloudmail.net,Apple
+host-suffix,icloudnet.net,Apple
+host-suffix,icloudpay.net,Apple
+host-suffix,icloudsecure.net,Apple
+host-suffix,myicloud.net,Apple
+host-suffix,mail.me.com.akadns.net,Apple
+host-suffix,www-cdn.icloud.com.akadns.net,Apple
+host-suffix,icloud-sandbox.com,Apple
+host-suffix,icloud.com.cn,Apple
+host-suffix,icloud.net.cn,Apple
+
+# >> Push Service
+host,init-p01md.apple.com,Apple
+host,init-p01st.push.apple.com,Apple
+host,init-s01st.push.apple.com,Apple
+host-suffix,courier-push-apple.com.akadns.net,Apple
+host-suffix,push.apple.com,Apple
+
+# >> Other Service
+host,api.smoot.apple.cn,Proxy
+host-suffix,safebrowsing.apple,Proxy
+
+# > Apple Kit
+host-suffix,apple-cloudkit.com,Apple
+host-suffix,apple-mapkit.com,Apple Domestic
+host-suffix,apple-livephotoskit.com,Apple
+
+# > Apple Resources Server
+host,testflight.apple.com,Proxy
+host-suffix,appldnld.apple.com,Apple Domestic
+host-suffix,secure-appldnld.apple.com,Apple
+host-suffix,itunesu.assets.itunes.com,Proxy
