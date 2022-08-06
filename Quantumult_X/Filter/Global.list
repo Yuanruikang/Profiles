@@ -500,3 +500,8 @@ DOMAIN-SUFFIX, visualwebsiteoptimizer.com, Global
 DOMAIN-SUFFIX, bloombergbusiness.com, Global
 host, open.spotify.com, Global
 host, 10beasts.net, Global
+# OneDrive
+DOMAIN-SUFFIX,1drv.com,OneDrive
+DOMAIN-SUFFIX,onedrive.com,OneDrive
+DOMAIN-SUFFIX,storage.live.com,OneDrive
+DOMAIN,oneclient.sfx.ms,OneDrive
